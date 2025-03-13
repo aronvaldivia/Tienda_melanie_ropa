@@ -64,7 +64,7 @@ const Catalog = () => {
   const handleOrder = (product: typeof products[0]) => {
     const message = `Hello, I'm interested in ordering the ${product.name} (${formatPrice(product.price)})`;
     const encodedMessage = encodeURIComponent(message);
-    window.open(`https://wa.me/1234567890?text=${encodedMessage}`, '_blank');
+    window.open(`https://wa.me/962231332?text=${encodedMessage}`, '_blank');
   };
 
   return (

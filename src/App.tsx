@@ -97,7 +97,7 @@ function App() {
               <h2 className="text-3xl font-serif mb-4">Contact Us</h2>
               <p className="text-gray-600 mb-8">Get in touch via WhatsApp for orders and inquiries</p>
               <a 
-                href="https://wa.me/1234567890"
+                href="https://wa.me/962231332"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-flex items-center px-6 py-3 border border-black text-base font-medium text-black hover:bg-black hover:text-white transition-colors duration-200"
