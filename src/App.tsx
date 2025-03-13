@@ -12,16 +12,20 @@ function App() {
       {/* Navigation */}
       <nav className="fixed w-full bg-white z-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
+          <div className="flex justify-between items-center h-20">
             <div className="flex-shrink-0">
-              <h1 className="text-2xl font-serif">ELEGANCE</h1>
+            <img 
+                  src="https://mcusercontent.com/17635adc15e4488859eb5650d/images/188ee139-58cd-516e-4351-abb816099e58.png" 
+                 
+                  className="w-40 h-20 object-contain"
+                />
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-center space-x-8">
                 <a href="#home" className="text-gray-900 hover:text-gray-600">Home</a>
-                <a href="#new" className="text-gray-900 hover:text-gray-600">New Collection</a>
-                <a href="#catalog" className="text-gray-900 hover:text-gray-600">Catalog</a>
-                <a href="#contact" className="text-gray-900 hover:text-gray-600">Contact</a>
+                <a href="#new" className="text-gray-900 hover:text-gray-600">Nueva Coleccion</a>
+                <a href="#catalog" className="text-gray-900 hover:text-gray-600">Catalogo</a>
+                <a href="#contact" className="text-gray-900 hover:text-gray-600">Contactanos</a>
               </div>
             </div>
             <div className="md:hidden">
